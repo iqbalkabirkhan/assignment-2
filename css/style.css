@@ -154,6 +154,11 @@ photo hobber and top section end */
     background-color: rgb(241, 241, 245);
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    
+    grid-row-gap: 40px; 
+}
+.see-menu{
+    font-size: 30px;
+    color: red;
+    text-align: right;
+    padding: 25px;
 }
