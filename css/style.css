@@ -66,12 +66,14 @@ nav{
     border-radius: 41px ;
     background-color: #E02C6D;
     color: white;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    font-size: 24px;
+    align-content: center;
     position: relative;
     top: 0;
+}
+.fa-arrow-right{
+    padding: 15px;
+ 
 }
 .button-deg:active{
     top: 5px;
@@ -107,6 +109,14 @@ nav{
 /* ...............
 photo hobber and top section end */
 /* products style */
+
+.mid-sec-title{
+    text-align: center;
+    font-size: 24px;
+    padding: 50px;
+    margin-bottom: 20px;
+
+}
 .product .product-banner img{
     width: 300px;
     height: 256px;
@@ -128,10 +138,22 @@ photo hobber and top section end */
     font-size: 14px;
     color: #787885;
 }
+.product-tytle{
+    color: #18191F;;
+}
 .product{
-    box-shadow: 2px,gray;
+    width: 409px;
+    height: 476px;
+    background-color: #fff;
+    box-shadow:15px 15px 15px 15px solid grey;
+    border-radius: 10px;
+    
 }
 .products{
     display: grid;
+    background-color: rgb(241, 241, 245);
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    
 }
