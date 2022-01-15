@@ -1,0 +1,25 @@
+@media  screen and (max-width:688px) {
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .nav{
+        display: none;
+    }
+    .navigation{
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    .banner-right img{align-items: left;}
+    .banner-left{
+        display: none;
+    }
+    .mid-sec{
+        display: none;
+    }
+    .last-sec{
+        display: none;
+    }
+}
